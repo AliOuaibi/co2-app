@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import courseImg1 from '../../assets/images/course/1.png';
 
 const SingleCourse = (props) => {
-  const {itemClass, courseID, courseImg, courseTitle, courseName, courseLesson, courseEnrolled, coursePrice} = props;
+  const {itemClass, courseID, courseImg, courseTitle, coursePrice} = props;
 
   return (
     <div className={itemClass ? itemClass : 'course__item mb-30'}>
@@ -12,7 +12,7 @@ const SingleCourse = (props) => {
         <Link to={`/course/${courseID}`}>
           <img
             src={courseImg ? require(`../../assets/images/course/${courseImg}`) : require(`../../assets/images/course/${courseImg1}`)}
-            alt="image"/>
+            alt=""/>
         </Link>
       </div>
       <div className="course__inner">

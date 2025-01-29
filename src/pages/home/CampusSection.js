@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import SectionTitle from '../../components/SectionTitle'
 
@@ -22,7 +21,7 @@ const Campus = () => {
               <ul>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg1} alt="image"/>
+                    <img src={campusImg1} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Des formateurs certifiés</h4>
@@ -32,7 +31,7 @@ const Campus = () => {
                 </li>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg2} alt="image"/>
+                    <img src={campusImg2} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Des formations pratiques</h4>
@@ -42,7 +41,7 @@ const Campus = () => {
                 </li>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg3} alt="image"/>
+                    <img src={campusImg3} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Des résultats rapides</h4>
@@ -52,7 +51,7 @@ const Campus = () => {
                 </li>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg1} alt="image"/>
+                    <img src={campusImg1} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Des formations flexibles</h4>
@@ -62,7 +61,7 @@ const Campus = () => {
                 </li>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg2} alt="image"/>
+                    <img src={campusImg2} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Des tarifs abordables</h4>
@@ -72,7 +71,7 @@ const Campus = () => {
                 </li>
                 <li className="wow animate__fadeInUp" data-wow-duration="0.3s">
                   <div className="icon">
-                    <img src={campusImg3} alt="image"/>
+                    <img src={campusImg3} alt=""/>
                   </div>
                   <div className="text">
                     <h4>Un suivi personnalisé</h4>
@@ -85,8 +84,8 @@ const Campus = () => {
           </div>
           <div className="col-lg-5">
             <div className="about__image">
-              <img src={campusImg4} alt="image"/>
-              <img className="shape-1" src={campusShape} alt="image"/>
+              <img src={campusImg4} alt="campus about"/>
+              <img className="shape-1" src={campusShape} alt="campus shape"/>
             </div>
           </div>
         </div>

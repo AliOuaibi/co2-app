@@ -1,5 +1,4 @@
 import sliderImg1 from "../../assets/images/slider/banner.jpg";
-import sliderImg11 from "../../assets/images/slider/11.jpg";
 
 const HomeSlider = () => {
   return (
@@ -8,8 +7,7 @@ const HomeSlider = () => {
         <div className="home-sliders home2">
             <div className="single-slide">
               <div className="slider-img">
-                <img className="desktop" src={sliderImg1} alt="Slider image"/>
-                <img className="mobile" src={sliderImg11} alt="Slider Image 1"/>
+                <img className="desktop" src={sliderImg1} alt="banniere du site"/>
               </div>
               <div className="container">
                 <div className="slider-content">

@@ -11,7 +11,7 @@ const About = () => {
           <div className="col-lg-6">
             <div className="about__image">
               <img src={aboutImg} alt="About"/>
-              <img className="react__shape__ab" src={aboutBadge} alt="Shape Image" width={130}/>
+              <img className="react__shape__ab" src={aboutBadge} alt="Shape" width={130}/>
             </div>
           </div>
           <div className="col-lg-6">
