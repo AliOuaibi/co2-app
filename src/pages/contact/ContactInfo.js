@@ -14,7 +14,7 @@ const ContactInfo = () => {
       </li>
       <li>
         <em className="icon"><img src={infoImg2} alt=""/></em>
-        <span className="text"><em>Contact</em> <a href="tel:+(33)625011250">Mobile: (+33)6 25 01 12 50</a> <a href="mailto:gestionco2formation@outlook.com">Email: gestionco2formation@outlook.com</a></span>
+        <span className="text"><em>Contact</em> <a href="tel:+(33)625011250">Mobile: (+33)6 25 01 12 50</a> <a href="mailto:contact@co2forma.com">Email: contact@co2forma.com</a></span>
       </li>
       <li>
         <em className="icon"><img src={infoImg3} alt=""/></em>

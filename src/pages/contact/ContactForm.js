@@ -6,14 +6,22 @@ const ContactForm = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('', '', e.target, '')
+    emailjs.sendForm(
+      'service_vwhuvwj',  // Remplace avec ton Service ID
+      'template_v6wa70g', // Remplace avec ton Template ID
+      e.target,
+      'NKpAI_F-BUz_0Ry7C'   // Remplace avec ton Public Key (anciennement User ID)
+    )
       .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
+        console.log("Email envoyé avec succès:", result.text);
+        alert("Votre message a bien été envoyé !");
+      })
+      .catch((error) => {
+        console.error("Erreur lors de l'envoi de l'email:", error.text);
+        alert("Une erreur est survenue, veuillez réessayer.");
       });
 
-    e.target.reset()
+    e.target.reset();
   }
 
   return (

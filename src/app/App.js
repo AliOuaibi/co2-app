@@ -8,6 +8,8 @@ import CourseDetails from '../pages/course/course-details';
 import Contact from '../pages/contact';
 import Error from '../pages/404';
 import LoadTop from '../components/ScrollTop/LoadTop'
+import MentionsLegales from "../pages/mentions-legales";
+import PolitiqueConfidentialite from "../pages/politique-and-confidiality";
 
 
 const App = () => {
@@ -31,6 +33,8 @@ const App = () => {
           <Route path="/nos-formations" exact element={<Course/>}/>
           <Route path="/course/:id" element={<CourseDetails/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/mentions-legales" element={<MentionsLegales/>}/>
+          <Route path="/politique-confidialite" element={<PolitiqueConfidentialite/>}/>
           <Route path='*' element={<Error/>}/>
         </Routes>
       </>

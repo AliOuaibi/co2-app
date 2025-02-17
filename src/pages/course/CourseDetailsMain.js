@@ -10,7 +10,6 @@ const CourseDetailsMain = (props) => {
 
   const tabStyle = 'nav nav-tabs';
 
-
   const {
     courseName,
     courseAuthor,
@@ -135,7 +134,7 @@ const CourseDetailsMain = (props) => {
                 <ul className="price__course">
                   <li><i className="icon_building"></i> Centre de formation <b>{courseAuthor}</b></li>
                   <li><i className="icon_tag_alt"></i> Catégorie <b>{courseName}</b></li>
-                  <li><i className="icon_map"></i> Lieu <b>100% E-learning</b></li>
+                  <li><i className="icon_map"></i> Lieu <b>Distanciel</b></li>
                   <li><i className="icon_clock_alt"></i> Durée <b>{courseDuration}</b></li>
                   <li><i className="icon_globe"></i>Langue <b>{courseLanguage}</b></li>
                 </ul>
